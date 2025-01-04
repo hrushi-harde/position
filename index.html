@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Event Ticket</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #e6f7ff;
+    }
+
+    .ticket {
+      width: 90%;
+      max-width: 500px;
+      background: #fff;
+      border: 2px solid #005bb5;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+    }
+
+    .ticket-header {
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: #005bb5;
+      color: #fff;
+    }
+
+    .ticket-header img {
+      height: 60px;
+      margin-right: 15px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+
+    .ticket-header h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .ticket-body {
+      padding: 25px;
+      text-align: center;
+    }
+
+    .ticket-body h2 {
+      font-size: 26px;
+      color: #005bb5;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .ticket-body p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .ticket-body .details {
+      text-align: left;
+      font-size: 14px;
+      color: #444;
+      border-top: 1px solid #ccc;
+      padding-top: 15px;
+    }
+
+    .ticket-body .details span {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .ticket-body .details span strong {
+      color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <div class="ticket">
+    <div class="ticket-header">
+      <img src="./logo.jpeg" alt="College Logo">
+      <h1>Sanjivani College Event</h1>
+    </div>
+    <div class="ticket-body">
+      <h2>Annual Cultural Fest</h2>
+      <p>Join us for a night of music, dance, and fun!</p>
+      <div class="details">
+        <span><strong>Date:</strong> January 20, 2025</span>
+        <span><strong>Time:</strong> 6:00 PM onwards</span>
+        <span><strong>Venue:</strong> College Auditorium</span>
+        <span><strong>Contact:</strong> 123-456-7890</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
